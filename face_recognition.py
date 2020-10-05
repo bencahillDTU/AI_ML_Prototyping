@@ -4,11 +4,8 @@ Created on Mon Oct  5 11:48:52 2020
 
 @author: benca
 """
-
 import cv2
-import sys
 
-cascPath = sys.argv[0]
 faceCascade = cv2.CascadeClassifier('haarcascade_frontalface_default.xml')
 
 video_capture = cv2.VideoCapture(0)
